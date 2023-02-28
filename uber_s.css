@@ -1,0 +1,255 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("image/f.jpg");
+    background-repeat: no-repeat;
+    background-size: 105vw;
+    height: 300vh;
+}
+.site-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 4rem;
+
+}
+.uber{
+    padding-top: 20px;
+    color: black;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.button1{
+    align-items: center;
+    border-radius: 25px;
+    border-style: none;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    height: 45px;
+    width: 92px;
+    font-size: 16px;
+}
+.button1:hover{
+    background-color: rgb(160, 154, 154);
+}
+#sign:hover{
+    background-color: rgb(48, 47, 47);
+}
+#Find:hover{
+    background-color: rgb(48, 47, 47);
+}
+#login{
+    color: black;
+}
+#sign{
+    color: white;
+    background-color: black;
+}
+#Find{
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+    height: 5.5rem;
+    width: 12rem;
+}
+.txt{
+    position: relative;
+    left: 2vw;
+    top: 25vh;
+    font-size: 5rem;
+    font-weight: 800;
+    color: black;
+    text-transform: capitalize;
+}
+input{
+    border-style: none;
+    height: 5rem;
+    width: 60rem;
+    font-size: 1.9rem;
+}
+.mid{
+    display: inline-block;
+    position: relative;
+    left: 0.5vw;
+    top: 28vh;
+}
+.txt1{
+    color: black;
+    position: relative;
+    left: 2vw;
+    top: 30vh;
+}
+a{
+    text-decoration: underline;
+    color: black;
+    cursor: pointer;
+}
+a:hover{
+    color: black;
+}
+.fa{
+    color: black;
+    font-size: 28px;
+    position: relative;
+    left: 2vw;
+    top: 0.5vh;
+}
+.phototext1{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    bottom: 80vh;
+    flex-direction: row;
+    position: relative;
+    top: 100vh;
+}
+.phototext2{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    bottom: 80vh;
+    flex-direction: row;
+    position: relative;
+    top: 100vh;
+}
+.cities{
+    color: black;
+    font-weight: bolder;
+    padding: 0 20px;
+    display: flex;
+    align-items: baseline;
+    bottom: 80vh;
+    flex-direction: row;
+    position: relative;
+    top: 110vh;
+    justify-content: space-between;
+}
+.city-name{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 25px;
+    position: relative;
+    bottom: 80vh;
+    top: 110vh;
+    justify-items: center;
+}
+.photo{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    bottom: 80vh;
+    flex-direction: row;
+    position: relative;
+    top: 100vh;
+}
+img{
+    height: 35vh;
+    width: 30vw;
+}
+.htext{
+    font-weight: bolder;
+    color:rgb(0, 0, 0);
+}
+.ptext{
+    color: black;
+}
+#c1{
+    font-weight: 900;
+}
+#c2{
+    font-size: medium;
+    color: rgb(52, 52, 52);
+}
+
+.city-name{
+    padding: 60px 0;
+}
+.items{
+    text-align: start;
+}
+.foot{
+    border-top: 1px solid rgb(174, 171, 171);
+    border-bottom: 1px solid rgb(174, 171, 171);
+    display: flex;
+    position: relative;
+    top: 110vh;
+    bottom: 80vh;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 10px 20px;
+}
+.social-logo{
+display: flex;
+position: relative;
+top: 119vh;
+bottom: 80vh;
+justify-content: flex-start;
+flex-direction: row;
+}
+.fa-facebook{
+    padding: 0 20px;
+    background-color: white;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.fa-twitter{
+    padding: 0 20px;
+    background-color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.fa-instagram{
+    padding: 0 20px;
+    background-color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.foot-last1{
+display: flex;
+position: relative;
+top: 110vh;
+bottom: 80vh;
+justify-content: flex-end;
+flex-direction: row;
+}
+.foot-last2{
+display: flex;
+position: relative;
+top: 110vh;
+bottom: 80vh;
+justify-content: flex-end;
+flex-direction: row;
+}
+.foot-items{
+    padding: 10px 20px;
+    padding-top: 40px;
+}
+.foot-items2{
+    padding: 10px 20px;
+    padding-bottom: 80px;
+}
+.foot-nav-text{
+    padding: 0 150px;
+    line-height: 3;
+}
+.foot-nav-text li{
+    color: black;
+
+}
+.foot-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    color: black;
+    font-weight: bolder;
+}
+.li-items a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.li-items a:hover{
+    text-decoration: underline;
+}
+
